@@ -16,8 +16,13 @@ p {
 
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 3.5rem;
+  background-color: rgba(0,0,0,0.1);
+  font-size: 1.5rem;
   line-height: 1.5;
+}
+
+.bgimg {
+    background-image: url('stray.jpeg');
 }
 
 .section-heading {
@@ -34,7 +39,14 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
+  background-image: url('stray.jpeg');
+  	background-repeat: no-repeat;
+	background-size: cover;
+  color: #fff;
+}
+
+.grey-section {
+  background-color: rgb(169,169,169);
   color: #fff;
 }
 
@@ -115,9 +127,7 @@ p {
 
 /* Testimonial Section */
 
-#testimonials {
-  background-color: #ef8172;
-}
+
 
 .testimonial-text {
   font-size: 3rem;
@@ -132,7 +142,6 @@ p {
 
 
 #press {
-  background-color: #ef8172;
   padding-bottom: 3%;
 }
 
